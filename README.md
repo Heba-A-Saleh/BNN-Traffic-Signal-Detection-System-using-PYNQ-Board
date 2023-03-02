@@ -60,13 +60,9 @@ git clone https://github.com/username/bnn-traffic-signal-detection.git
 
 8. Generate the bitstream and export the hardware design to the bnn-traffic-signal-detection/pynq/traffic_signal_detection directory.
 
-9. Install the PYNQ package on your computer using the following command:
-```
-pip3 install pynq
-```
-10. Copy the bnn-traffic-signal-detection/pynq directory to the root of the SD card.
+9. Copy the bnn-traffic-signal-detection/pynq directory to the root of the SD card.
 
-11. Eject the SD card from your computer and insert it into the PYNQ board.
+10. Eject the SD card from your computer and insert it into the PYNQ board.
 
 ## Usage
 
