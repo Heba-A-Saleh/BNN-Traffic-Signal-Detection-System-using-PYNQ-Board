@@ -8,6 +8,7 @@ This project implements a binary neural network (BNN) based traffic signal detec
 3. [Quick Start](#Quick-Start)
 4. [Installation](#Installation)
 5. [Usage](#Usage)
+6. [Dataset Information](#Dataset-Information)
     
 ## Introduction
 
@@ -81,3 +82,15 @@ cd /home/xilinx/pynq/traffic_signal_detection
    3. Run the traffic_signal_detection.py script:
 
 python3 traffic_signal
+
+## Dataset Information
+
+The dataset used in this project is confidential and cannot be shared publicly due to legal and ethical reasons. The dataset contains traffic signal images captured from various locations in a city, and it was used to train and test our BNN Traffic Signal Detection System.
+
+The dataset consists of 10,000 traffic signal images in the JPEG format, with a resolution of 1280x720 pixels. The dataset also includes annotations for the traffic signals, indicating their location and type.
+
+Access to the dataset was obtained through a collaboration with a private organization that wishes to remain anonymous.
+
+To replicate the experiment using a public dataset, we recommend using the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which is similar in size and content to the confidential dataset. However, some modifications or adjustments may be necessary to adapt our model to the GTSRB dataset.
+
+I acknowledge that using a different dataset may have limitations and may affect the performance of the model. However, due to the confidentiality of the original dataset, I believe that this is the best alternative for replicating our experiment.
